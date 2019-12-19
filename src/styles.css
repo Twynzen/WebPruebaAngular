@@ -1,14 +1,21 @@
+.logo-brand {
+  max-width: 300px;
+  min-width: 150px;
+  transform: translate(65%);
+  position: absolute;
+  padding-top: 130px;
+}
 .navbar {
-  background-color: #ffffff;
+  background-color: rgb(0, 0, 0, 0.5);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
   min-height: 100px;
 }
 
 .nav-link {
-  color: #1a1a1a;
+  color: #fff;
 }
 .nav-link:hover {
-  color: #1a1a1a;
+  color: #fff;
 }
 
 .navbar-toggler {
@@ -16,4 +23,16 @@
 }
 .navbar-toggler:focus {
   outline: none;
+}
+
+#hero {
+  background-image: url(assets/img/hero.jpg);
+  background-size: cover;
+  padding-top: 90px;
+  min-height: 700px;
+  color: #ffffff;
+}
+
+#hero p {
+  color: #ffffff;
 }
